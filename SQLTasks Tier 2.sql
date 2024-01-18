@@ -77,8 +77,7 @@ in question. */
 Query: 
 SELECT name, monthlymaintenance,
 CASE WHEN monthlymaintenance > 100 THEN 'expensive'
-ELSE 'cheap' END AS 'expense_label'
-FROM Facilities WHERE 1
+ELSE 'cheap' END AS 'expense_label';
 
 
 
